@@ -4,3 +4,9 @@ in IEEE Transactions on Network and Service Management, vol. 18, no. 4, pp. 4829
 
 Randomized algorithm implementation tutorial
 Wang, Shusen. “A Practical Guide to Randomized Matrix Computations with MATLAB Implementations.” ArXiv abs/1505.07570 (2015): n. pag.
+
+Dataset TNSM paper(dataset)
+
+F. Aurzada, M. Lévesque, M. Maier and M. Reisslein, "FiWi Access Networks Based on Next-Generation PON and Gigabit-Class WLAN Technologies: A Capacity and Delay Analysis," in IEEE/ACM Transactions on Networking, vol. 22, no. 4, pp. 1176-1189, Aug. 2014
+
+C. Bocanegra, T. E. Kennouche, Z. Li , L. Favalli, M. Di Felice and K. Chowdhury, "E-Fi: Evasive Wi-Fi Measures for Surviving LTE within 5GHz Unlicensed Band," in IEEE Transactions on Mobile Computing Link-https://github.com/MathworksProjects/LTE-WiFi-Coexistence
