@@ -1,7 +1,10 @@
 function [percent_packet, r]=gen_pack_loss_seq(len, features, pl)
 
 for z=1:features
-r=rand(1, len);
+data=load('ENDTOEND.txt');
+data=v';
+r=data(1, len);
+   
 for i=1:len
 
 
