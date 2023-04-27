@@ -75,7 +75,8 @@ end
 function r = Do(tau, X)
     % shrinkage operator for singular values
    % h = min(X.^2, min((X), (X) ));
-    [U, S, V] = svd(X);
+   # [U, S, V] = svd(X);
+    [U, S, V]=itsvd(X);
     r = U*So(tau, S)*V';
     %r = U*S*V';
 end
