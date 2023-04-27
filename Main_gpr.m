@@ -2,9 +2,8 @@
 
 for iRealize=60:10:70
 for idxd=1:10
-%Xt=load('.\Knot_Tying\kinematics\AllGestures\Knot_Tying_E001.txt');
-%[percent_packet, r]=gen_pack_loss_seq(iRealize, 3, 0.4);
-load('Letter15K.mat')%X=full(abs(X(1:iRealize,1:6)));
+X=load('.\Knot_Tying\kinematics\AllGestures\Knot_Tying_E001.txt');
+[percent_packet, r]=gen_pack_loss_seq(iRealize, 3, 0.4);
 X_1=X(1:iRealize,:);
 X=full(X(1:iRealize,:));
 %y=full(y(1:200,1));
