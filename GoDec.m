@@ -44,7 +44,8 @@ while true
         Y1=L*Y2;
         Y2=L'*Y1;
     end
-    [Q,R]=qr(Y2,0);
+    #[Q,R]=qr(Y2,0);
+    [Q, R]=seqkl(Y2, 0);
     L_new=(L*Q)*Q';
     
     %Update of S
